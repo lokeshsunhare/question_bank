@@ -1,0 +1,60 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="#3f18c1d2"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/txtfirstpdf"
+            android:layout_span="4"
+            android:padding="5dip"
+
+            android:text="Pdf file" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:maxWidth="30dp"
+            android:padding="5dip"
+            android:tag="fbt"
+            android:text="..."
+
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/txtsecondpdf"
+            android:layout_span="4"
+            android:padding="5dip"
+            android:text="Pdf file" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:padding="5dip"
+            android:tag="sbt"
+            android:text="..."
+
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btmerge"
+            android:layout_span="5"
+            android:onClick="mergePdfFiles"
+            android:padding="5dip"
+            android:text="Merge"
+
+            />
+
+    </TableRow>
+
+</TableLayout>

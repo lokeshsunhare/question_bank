@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#17CAC8</color>
+    <!--    <color name="colorPrimary">#0E76DB</color>-->
+    <color name="colorPrimaryDark">#0B6CCB</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--        <color name="colorPrimary">#673ab7</color>-->
+    <!--        <color name="colorPrimaryDark">#512da8</color>-->
+    <!--        <color name="colorAccent">#D81B60</color>-->
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="border_nav">#d2d2d2</color>
+    <color name="color_white">#FFF</color>
+    <color name="orange">#ff8108</color>
+    <color name="orange_dark">#FF5722</color>
+    <color name="green">#397f39</color>
+    <color name="selection_color">#BDCFBD</color>
+    <color name="selection_color_dark">#A3B8A3</color>
+    <color name="gray">#cccccc</color>
+    <color name="purple">#512da8</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="color_black">#000</color>
+    <color name="silver_color">#D3D2D2</color>
+    <color name="note_text_disabled">#3a0000</color>
+
+    <color name="blue">#01182f</color>
+    <color name="orange2">#c26919</color>
+
+    <color name="lightgray">#e7e7e7</color>
+
+    <color name="Blue2">#303840</color>
+
+    <color name="lightgreen">#336666</color>
+    <color name="navy">#6699ff</color>
+    <color name="red">#FD0E00</color>
+    <color name="navy_light">#BCD1F5</color>
+
+    <color name="comment_font_color">#1fc0a0</color>
+
+    <color name="d_color_1">#E0D5F8</color>
+    <color name="d_color_2">#FAE5E5</color>
+    <color name="d_color_3">#F8DAE3</color>
+    <color name="d_color_4">#E9F8E4</color>
+    <color name="d_color_5">#E0F7FF</color>
+    <color name="d_color_6">#EEE4FC</color>
+    <color name="d_color_7">#E4CBD3FF</color>
+
+    <color name="light_transparent">#43B1B9F7</color>
+
+</resources>

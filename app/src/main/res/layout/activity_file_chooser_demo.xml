@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_picFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#8BC34A"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Select File"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_capture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_picFile"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#8BC34A"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Capture"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/tvfilePath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_capture"
+        android:text="dsfsdaf"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvfileDowload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvfilePath"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:onClick="downloadFiles"
+        android:text="Download"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_upload_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#8BC34A"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Upload"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

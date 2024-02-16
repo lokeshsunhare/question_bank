@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_picFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#8BC34A"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Select File"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvfilePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_picFile"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="dsfsdaf"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvfilePath"
+        android:layout_centerHorizontal="true" />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_submit"
+        android:layout_below="@+id/image_view" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="#9C27B0"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+</RelativeLayout>
